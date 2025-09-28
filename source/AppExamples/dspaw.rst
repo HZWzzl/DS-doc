@@ -99,7 +99,7 @@ The Device Studio interface for generating input files ``scf.in`` and ``structur
    Device Studio Interface for Generating **Si crystal structure hybrid functional band calculation** Input Files
 
 
-.. _DS_PAW计算:
+.. _ds-paw-calculation:
 
 DS-PAW Calculation
 ==================
@@ -115,7 +115,7 @@ Before performing the **Si crystal structure hybrid functional band calculation*
 In the interface shown in :numref:`ApplicationExamples_123`, in the Device Studio's Project Explorer area, select ``scf.in`` → right-click → :guilabel:`Run`, which will pop up the Run interface. In the Run interface, click the :guilabel:`Run` button to perform the DS-PAW calculation. Users can observe the DS-PAW calculation status in the Job Manager area. When the DS-PAW calculation task is in the queue, in progress, or completed, :guilabel:`Status` is Queued, Running, Finished respectively. After the calculation is completed, the result file ``band.json`` and log file ``DS-PAW.log`` can be seen in the Device Studio's Project Explorer area.
 
 
-.. _DS_PAW计算结果的可视化分析:
+.. _ds-paw-visualization-analysis:
 
 DS-PAW Results Visualization
 ============================

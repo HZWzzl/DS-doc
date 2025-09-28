@@ -156,7 +156,7 @@ Click :guilabel:`Edit` on the Structure Refinement Module (SRM) menu bar; the in
     The :guilabel:`Home ZY View` primarily targets atomic structures that have been rotated, translated, zoomed, or scaled.  Users can restore the initial state with a single click as needed.
 
 
-.. _SRM工具栏:
+.. _srm-toolbar:
  
 SRM Toolbar
 ===========
@@ -252,7 +252,7 @@ The functions of each icon in the :ref:`SRM toolbar` are shown in the table belo
 
 
 
-.. _SRM结构显示区域:
+.. _srm-structure-display:
  
 SRM - Structure Display Area
 ============================
@@ -280,7 +280,7 @@ The Structure Refinement Module (SRM) structure display area, as shown in :numre
 
 
 
-.. _SRM参数调节区域:
+.. _srm-parameter-adjustment:
  
 SRM Parameter Adjustment Area
 =============================
@@ -599,7 +599,7 @@ The Selection area in the Structure Refinement Module (SRM) parameter adjustment
 - - :guilabel:`Show label` : When checked, shows the label of the selected atom (e.g., ``O43`` atom) in the :ref:`SRM structure display area`; otherwise, hides it.
 
 
-.. _SRMSetting界面:
+.. _srm-setting-interface:
  
 SRM Setting Interface
 =====================
@@ -671,11 +671,11 @@ Functional description of parameters in the Setting interface of the atomic stru
 
 .. admonition:: note
 
-   To generate a user-specific template, you can modify the initial Device Studio templates, Device Studio template 1 and Device Studio template 2, based on :numref:`StructureRefinementModule_25` and :numref:`StructureRefinementModule_26` respectively.  Adjust parameters such as color, radius, lighting, and background color, then click :guilabel:`OK` or :guilabel:`Apply` in the Setting interface.  Refer to :ref:`SRM参数调节区域` for detailed parameter adjustment instructions.
+   To generate a user-specific template, you can modify the initial Device Studio templates, Device Studio template 1 and Device Studio template 2, based on :numref:`StructureRefinementModule_25` and :numref:`StructureRefinementModule_26` respectively.  Adjust parameters such as color, radius, lighting, and background color, then click :guilabel:`OK` or :guilabel:`Apply` in the Setting interface.  Refer to :ref:`srm-parameter-adjustment` for detailed parameter adjustment instructions.
 
 
 
-.. _在原子结构精修模块导入结构:
+.. _import-structure-srm:
 
 ================================
 Importing Structures into the Atomic Structure Refinement Module
@@ -748,7 +748,7 @@ The Si16O32 crystal structure is displayed in the Device Studio main interface a
    Select the Si16O32 crystal structure file to import into the atomic structure refinement module interface.
 
 
-.. _修改原子结构精修模块背景颜色:
+.. _modify-srm-background-color:
 
 ================================
 Modify the background color of the atomic structure refinement module
@@ -798,7 +798,7 @@ To illustrate, this section details how to modify the background color of the Si
    The background color of the atomic structure refinement module is primarily modified through :ref:`SRMModel`.  Users can read this section for details.
 
 
-.. _修改结构中原子的颜色:
+.. _modify-atom-colors:
 
 ================================
 Modifying the color of atoms in the structure
@@ -826,7 +826,7 @@ Taking the **Si16O32 crystal structure** as an example, this section details how
 
 
 
-.. _修改结构中同一元素的颜色:
+.. _modify-element-colors:
  
 Modifying the Color of the Same Element within a Structure
 ==========================================================
@@ -841,7 +841,7 @@ As shown in :numref:`StructureRefinementModule_28`, this interface allows modifi
    The interface for modifying the color of the ``Si`` element in the Si16O32 crystal structure to **blue** (RGB value ``[85 170 255]``)
 
 
-.. _修改结构中某一原子的颜色:
+.. _modify-single-atom-color:
  
 Change the color of an atom in the structure
 ============================================
@@ -867,7 +867,7 @@ There are two ways to change the color of atom ``Si11`` in the Si16O32 crystal s
    Select Atom: Modify the color of atom ``Si11`` in the ``Si16O32`` crystal structure to RGB value ``[170 170 255]`` in the operation interface.
 
 
-.. _修改结构中所有元素的颜色:
+.. _modify-all-elements-colors:
  
 Change the color of all elements in the structure
 =================================================
@@ -895,7 +895,7 @@ The Si16O32 crystal structure contains two elements, Si and O.  Figure :numref:`
    Modify the color of all elements in the structure by right-clicking in the blank area of :ref:`SRMAtoms` → Color → Device Studio template 1 or Device Studio template 2.  This only applies the color parameters from the template to the structure; radius parameters are not applied.
 
 
-.. _修改结构中原子的半径:
+.. _modify-atom-radius:
 
 ================================
 Modify the radius of atoms in the structure
@@ -922,7 +922,7 @@ Modify the atomic radii in the structure.  This modification requires that the s
 
 
 
-.. _修改结构中同一元素的半径:
+.. _modify-element-radius:
  
 Modify the radius of the same element in the structure
 ======================================================
@@ -937,7 +937,7 @@ As shown in :numref:`StructureRefinementModule_41`, this is the interface for mo
 
    The interface for modifying the radius of the ``Si`` element in the Si16O32 crystal structure from ``1.46`` to ``0.80``
 
-.. _修改结构中某一原子的半径:
+.. _modify-single-atom-radius:
  
 Modify the radius of an atom in the structure
 =============================================
@@ -964,7 +964,7 @@ Based on :numref:`StructureRefinementModule_41`, there are two ways to modify th
    Select Atoms: Interface for modifying the radius of the Si16 atom in the Si16O32 crystal structure from 0.80 to 1.60.
 
 
-.. _修改结构中所有元素的半径:
+.. _modify-all-elements-radius:
  
 Modify the radius of all elements in the structure
 ==================================================
@@ -992,7 +992,7 @@ The Si16O32 crystal structure contains two elements, Si and O.  The interface fo
    Modify the radius of all elements in the structure by right-clicking in the blank area of :ref:`SRMAtoms` → Radius → Device Studio template 1 or Device Studio template 2.  This only applies the radius parameter from the template to the structure; color parameters are not applied.
 
 
-.. _结构的球棍模式或多面体模式:
+.. _structure-ball-stick-polyhedra:
 
 ================================
 Ball-and-stick/polyhedral model of the structure
@@ -1022,7 +1022,7 @@ As shown in :numref:`StructureRefinementModule_50`, this is the interface for sw
 To adjust the polyhedron transparency, please refer to the :ref:`SRMModel` section, which details how to do so.
 
 
-.. _调节结构的光照参数:
+.. _adjust-lighting-parameters:
 
 ================================
 Adjusting Lighting Parameters of Structures

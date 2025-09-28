@@ -136,14 +136,14 @@ as shown in :numref:`HighLightFunction_18`, :numref:`HighLightFunction_19`, and 
 
           C5H17AlN2O8P2_mole5
 
-.. _任务监控与管理:
+.. _task-monitoring-management:
 
 ================================
 Task Monitoring and Management
 =======================================
 
 Device Studio's :ref:`JobManager`, as shown in :numref:`HighLightFunction_28`, integrates **PuTTY** and **WinSCP** modules, supporting the free configuration of server parameters, directories, and scripts.
-Commands are supported, along with automatic task status refresh and disconnection alerts. For information on configuring server connections in the Job Manager's task monitoring and management area, please refer to the section :ref:`Nanodcal连接服务器`.
+Commands are supported, along with automatic task status refresh and disconnection alerts. For information on configuring server connections in the Job Manager's task monitoring and management area, please refer to the Server Connection section.
 
 .. figure:: images/highLightFunction_28.png
    :align: center

@@ -111,12 +111,12 @@ html_static_path = ["_static"]
 
 html_search_language = "en"
 
-# 在页面底部显示上一次更新于某某时间
+# Show last updated time in page footer
 html_last_updated_fmt = "%Y-%m-%d %H:%M:%S"
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine = "pdflatex"
+latex_engine = "xelatex"
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     "papersize": "a4paper",
@@ -124,14 +124,13 @@ latex_elements = {
     "pointsize": "12pt",
     # Latex figure (float) alignment
     "figure_align": "H",
-    # Additional packages
+    # Minimal preamble for Unicode support
     "preamble": r"""
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{textcomp}
+\usepackage{fontspec}
 \usepackage{float}
 \usepackage{graphicx}
 \setkeys{Gin}{width=\textwidth,height=\textheight,keepaspectratio}
-\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
+\setmainfont{DejaVu Sans}
 """,
+    "fontpkg": "",
 }

@@ -132,7 +132,7 @@ The Device Studio interface for generating the input file ``bdf.inp`` for **grou
 
    Device Studio interface for generating input files for **ground state molecule CH2S sf-X2C/TDDFT-SOC spin-orbit coupling calculation**
 
-.. _BDF计算:
+.. _bdf-calculation:
 
 BDF Calculation
 ===============
@@ -228,7 +228,7 @@ interface, click the :guilabel:`Run` button to perform the BDF calculation. User
 in progress, or completed, :guilabel:`Status` is Queued, Running, Finished respectively. After the calculation is completed, click the Actions button in the Job Manager area, which will pop up the Qsftp Explorer interface. In this interface, find the calculation result file, click the :guilabel:`Download` button to download the calculation result file from the server to the local, and the downloaded result file can be viewed in the Device Studio's Project Explorer area. 
 
 
-.. _BDF计算结果的可视化分析:
+.. _bdf-visualization-analysis:
 
 BDF results visualization
 =========================
