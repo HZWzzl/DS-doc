@@ -42,7 +42,7 @@ numfig_format = {"figure": "fig. %s", "subfigure": "(%s)"}
 # ones.
 # extensions = [
 # ]
-extensions = ["sphinx.ext.graphviz", "sphinx_rtd_theme"]
+extensions = ["sphinx_rtd_theme"]
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -126,6 +126,12 @@ latex_elements = {
     "figure_align": "H",
     # Additional packages
     "preamble": r"""
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
 \usepackage{float}
+\usepackage{graphicx}
+\setkeys{Gin}{width=\textwidth,height=\textheight,keepaspectratio}
+\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
 """,
 }
