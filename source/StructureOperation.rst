@@ -184,7 +184,7 @@ A series of operations for measuring structural information is described using t
 
    Si8 Crystal Structure
 
-.. admonition:: 注意事项
+.. admonition:: Note
 
    To measure structural information, multiple atoms often need to be selected.  It is recommended that users first select the corresponding shortcut icon on the :ref:`Toolbars` and then hold down the :guilabel:`Ctrl` key while individually selecting atoms in the structure.  Without holding down the :guilabel:`Ctrl` key, multiple atom selection via mouse clicks is not possible, and therefore structural information measurement cannot be performed.
 

@@ -72,9 +72,36 @@ exclude_patterns = []
 #
 html_theme = "sphinx_rtd_theme"
 html_logo = "_static/DeviceStudio_logo.png"
-html_theme_options = {"logo_only": True}
+html_theme_options = {
+    "logo_only": True,
+    "display_version": True,
+    "prev_next_buttons_location": "bottom",
+    "style_external_links": False,
+    "collapse_navigation": True,
+    "sticky_navigation": True,
+    "navigation_depth": 4,
+    "includehidden": True,
+    "titles_only": False
+}
 html_favicon = "_static/DeviceStudio.ico"
 html_search_enabled = True
+
+# Show download links in the RTD menu
+html_show_sourcelink = False
+html_context = {
+    "display_github": False,
+    "github_user": "",
+    "github_repo": "",
+    "github_version": "",
+    "conf_py_path": "/source/",
+    "source_suffix": ".rst",
+    # Add download links to the RTD versions menu
+    "downloads": [
+        ("PDF", "//hzw-devicestudio-doc.readthedocs.io/_/downloads/en/latest/pdf/"),
+        ("EPUB", "//hzw-devicestudio-doc.readthedocs.io/_/downloads/en/latest/epub/"),
+    ],
+    "show_rtd_downloads": True,
+}
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -82,29 +109,23 @@ html_search_enabled = True
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-html_search_language = "zh_CN"
-
-# 是否显示查看源码链接
-html_show_sourcelink = False
+html_search_language = "en"
 
 # 在页面底部显示上一次更新于某某时间
 html_last_updated_fmt = "%Y-%m-%d %H:%M:%S"
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine = "xelatex"
+latex_engine = "pdflatex"
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     "papersize": "a4paper",
     # The font size ('10pt', '11pt' or '12pt').
     "pointsize": "12pt",
-    # Additional stuff for the LaTeX preamble.
-    "preamble": "",
     # Latex figure (float) alignment
-    #'figure_align': 'htbp',
     "figure_align": "H",
-    # Using Package for ZH
+    # Additional packages
     "preamble": r"""
-\usepackage{ctex}
+\usepackage{float}
 """,
 }
