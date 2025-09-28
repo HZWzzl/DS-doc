@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Device Studio Manual"
+project = "Device-Studio-Manual"
 # copyright = '2023, HONGZHIWEI TECHNOLOGY(SHANGHAI) CO.,LTD. All Rights Reserved.'
 # author = 'HONGZHIWEI TECHNOLOGY(SHANGHAI) CO.,LTD'
 copyright = "2023, HZWtech, SHANGHAI"
