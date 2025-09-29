@@ -16,6 +16,7 @@ build:
     - texlive-xetex
     - latexmk
     - fonts-dejavu-core
+    - texlive-fonts-extra
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:

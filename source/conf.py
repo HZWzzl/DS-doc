@@ -124,13 +124,11 @@ latex_elements = {
     "pointsize": "12pt",
     # Latex figure (float) alignment
     "figure_align": "H",
-    # Minimal preamble for Unicode support
+    # Preamble for Unicode and graphics support
     "preamble": r"""
 \usepackage{fontspec}
 \usepackage{float}
 \usepackage{graphicx}
 \setkeys{Gin}{width=\textwidth,height=\textheight,keepaspectratio}
-\setmainfont{DejaVu Sans}
 """,
-    "fontpkg": "",
 }
