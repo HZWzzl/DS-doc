@@ -63,7 +63,7 @@ When using any module of Device Studio for **Atomic-level Material Modeling (Mil
 
 
 | Device Studio[1] program provides a number of functions for performing visualization, modeling and simulation. And XXX simulation using XXX software integrated in Device Studio program.
-| Reference：
+| Reference:
 | [1] Hongzhiwei Technology, Device Studio, Version 2023A, China, 2023. Available online:https://cloud.hzwtech.com/web/product-service?id=6 (accessed on XXX, XXX).
 
 

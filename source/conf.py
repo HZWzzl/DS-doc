@@ -23,13 +23,13 @@ project = "Device-Studio-Manual"
 # copyright = '2023, HONGZHIWEI TECHNOLOGY(SHANGHAI) CO.,LTD. All Rights Reserved.'
 # author = 'HONGZHIWEI TECHNOLOGY(SHANGHAI) CO.,LTD'
 copyright = "2023, HZWtech, SHANGHAI"
-author = "Feifei Lu，Jianghui chen"
+author = "Feifei Lu, Jianghui chen"
 
 # The short X.Y version
-version = "version：2023A"
+version = "version: 2023A"
 
 # The full version, including alpha/beta/rc tags
-# release = 'version：2022A'
+# release = 'version: 2022A'
 
 numfig = True
 numfig_format = {"figure": "fig. %s", "subfigure": "(%s)"}
@@ -126,16 +126,18 @@ latex_elements = {
     "figure_align": "H",
     # Additional packages and font configuration
     "fontpkg": r"""
-\usepackage{fontspec}
-\defaultfontfeatures{Ligatures=TeX}
-\setmainfont{DejaVu Sans}
+\setmainfont{Liberation Serif}
+\setsansfont{Liberation Sans}
+\setmonofont{Liberation Mono}
 """,
     # Preamble for Unicode and graphics support
     "preamble": r"""
 \usepackage{float}
 \usepackage{graphicx}
 \setkeys{Gin}{width=\textwidth,height=\textheight,keepaspectratio}
-\DeclareUnicodeCharacter{00A0}{\nobreakspace}
+\setlength{\headheight}{14.5pt}
+% Override problematic Unicode handling
+\catcode`^^^^00a0\active\protected\def^^^^00a0{\,}
 """,
     # Footer content
     "fncychap": r"\usepackage[Bjornstrup]{fncychap}",

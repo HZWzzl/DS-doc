@@ -284,7 +284,7 @@ Sections/Slices of Crystal Structure
 
 Surface/Slab from Crystal Structure, this function is only available when a crystal structure exists.  Taking the NaCl crystal structure built in the :ref:`Crystal Modeling` section as an example, to build a NaCl (1 1 1) crystal structure with a Thickness of 9.73 Å, click :guilabel:`Build` → :guilabel:`Surface/Slab` in the interface shown in :numref:`BuildStructure_24`. The interface for building the surface/slab of the NaCl crystal structure will pop up as shown in :numref:`BuildStructure_25`.
 
-.. figure:: images/buildSurfaceSlab_1.png
+.. figure:: images/BuildSurfaceSlab_1.png
    :align: center
    :name: BuildStructure_25
 
@@ -292,13 +292,13 @@ Surface/Slab from Crystal Structure, this function is only available when a crys
 
 As shown in the red box and arrow in :numref:`BuildStructure_26`, set the Miller index (1 1 1) in the interface shown in :numref:`BuildStructure_25`. Select the Na (0.5000 0.5000 0.0000) atom as the starting atom for the slab in the dropdown table. Check the :guilabel:`Slab` box and click the :guilabel:`+` button after Thickness 5 times to set the Thickness to 9.73 Å.  The structure can be previewed in the right panel. Click :guilabel:`Build` to build the 9.73 Å thick NaCl (1 1 1) crystal structure. The structure file is mounted in the Device Studio project management area, and the 3D view is displayed in the Device Studio 3D display area. The Device Studio interface after building the 9.73 Å thick NaCl (1 1 1) crystal structure is shown in :numref:`BuildStructure_27`.
 
-.. figure:: images/buildSurfaceSlab_2.png
+.. figure:: images/BuildSurfaceSlab_2.png
    :align: center
    :name: BuildStructure_26
 
    User interface for building a NaCl (1 1 1) crystal structure with a thickness of 9.73 Å.
 
-.. figure:: images/buildSurfaceSlab_3.png
+.. figure:: images/BuildSurfaceSlab_3.png
    :align: center
    :name: BuildStructure_27
 
@@ -448,32 +448,32 @@ Removing Redundant Atoms and Operations in the Au Supercell
    * - .. figure:: images/44_buildDevice_8.png
           :name: BuildStructure_41
 
-          （a）   			
+          (a)   			
 
      - .. figure:: images/45_buildDevice_9.png
           :name: BuildStructure_42
 
-          （b）
+          (b)
 
    * - .. figure:: images/46_buildDevice_10.png
           :name: BuildStructure_43
 
-          （c）    			
+          (c)    			
 
      - .. figure:: images/47_buildDevice_11.png
           :name: BuildStructure_44
 
-          （d）
+          (d)
 
    * - .. figure:: images/48_buildDevice_12.png
           :name: BuildStructure_45
 
-          （e）    			
+          (e)    			
 
      - .. figure:: images/49_buildDevice_13.png
           :name: BuildStructure_46
 
-          （f）
+          (f)
 
 
 .. _set-x-and-y-axis-directions-to-vacuum:
@@ -502,12 +502,12 @@ Set the X and Y axes of the Au_SuperCell supercell to vacuum. Duplicate the Au_S
    * - .. figure:: images/51_buildDevice_15.png
           :name: BuildStructure_48
 
-          （a）    			
+          (a)    			
 
      - .. figure:: images/52_buildDevice_16.png
           :name: BuildStructure_49
 
-          （b）
+          (b)
 
 
 .. _mirror-the-structure-and-reset-the-lattice-constants:
@@ -535,12 +535,12 @@ Mirror the selected atoms, reset the lattice constant, and center the structure.
    * - .. figure:: images/54_buildDevice_18.png
           :name: BuildStructure_52
 
-          （a）    			
+          (a)    			
 
      - .. figure:: images/56_buildDevice_20.png
           :name: BuildStructure_53
 
-          （b）
+          (b)
 
 
 .. _setting-up-a-two-port-device-structure:
@@ -566,32 +566,32 @@ Import the alkanethiol molecule structure and copy it to the center of the Au_Su
    * - .. figure:: images/57_buildDevice_21.png
           :name: BuildStructure_55
 
-          （a）    			
+          (a)    			
 
      - .. figure:: images/58_buildDevice_22.png
           :name: BuildStructure_56
 
-          （b）
+          (b)
 
    * - .. figure:: images/59_buildDevice_23.png
           :name: BuildStructure_57
 
-          （c）    			
+          (c)    			
 
      - .. figure:: images/60_buildDevice_24.png
           :name: BuildStructure_58
 
-          （d）
+          (d)
 
    * - .. figure:: images/62_buildDevice_26.png
           :name: BuildStructure_59
 
-          （e）    			
+          (e)    			
 
      - .. figure:: images/64_buildDevice_28.png
           :name: BuildStructure_60
 
-          （f）
+          (f)
 
 (3) Click the :guilabel:`Convert to Device` shortcut icon. The Convert to Device interface will pop up, as shown in :numref:`BuildStructure_61`. Select the parts in the red boxes, then click :guilabel:`Preview` to preview the two-port device structure on the right side of the interface. Clicking :guilabel:`Build` will generate the two-port device structure ``Device_Au_SuperCell_1.hzw``, as shown in :numref:`BuildStructure_59` (e).
 

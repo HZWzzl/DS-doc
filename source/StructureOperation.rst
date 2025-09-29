@@ -141,32 +141,32 @@ For the structure shown in :numref:`StructureOperation_11` (e), move the two lef
    * - .. figure:: images/66_structure_1.png
           :name: StructureOperation_7
 
-          （a）               
+          (a)               
 
      - .. figure:: images/67_structure_2.png
           :name: StructureOperation_8
 
-          （b）
+          (b)
 
    * - .. figure:: images/68_structure_3.png
           :name: StructureOperation_9
 
-          （c）               
+          (c)               
 
      - .. figure:: images/69_structure_4.png
           :name: StructureOperation_10
 
-          （d）
+          (d)
 
    * - .. figure:: images/70_structure_5.png
           :name: StructureOperation_11
 
-          （e）               
+          (e)               
 
      - .. figure:: images/72_structure_7.png
           :name: StructureOperation_12
 
-          （f）
+          (f)
 
 
 .. _information-measurement-of-structure:
@@ -224,22 +224,22 @@ For a crystal structure as shown in :numref:`StructureOperation_14`, click the :
    * - .. figure:: images/74_structure_9.png
           :name: StructureOperation_15
 
-          （a）   			
+          (a)   			
 
      - .. figure:: images/75_structure_10.png
           :name: StructureOperation_16
 
-          （b）
+          (b)
 
    * - .. figure:: images/76_structure_11.png
           :name: StructureOperation_17
 
-          （c）    			
+          (c)    			
 
      - .. figure:: images/77_structure_12.png
           :name: StructureOperation_18
 
-          （d）
+          (d)
 
 
 
