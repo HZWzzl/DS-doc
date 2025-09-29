@@ -126,9 +126,9 @@ latex_elements = {
     "figure_align": "H",
     # Additional packages and font configuration
     "fontpkg": r"""
-\setmainfont{Liberation Serif}
-\setsansfont{Liberation Sans}
-\setmonofont{Liberation Mono}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
 """,
     # Preamble for Unicode and graphics support
     "preamble": r"""
