@@ -1,3 +1,4 @@
 *.egg-info
 build
+*.log
 build_docs.py

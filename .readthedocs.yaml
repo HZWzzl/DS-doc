@@ -15,8 +15,11 @@ build:
     - texlive-latex-extra
     - texlive-xetex
     - latexmk
+    - fonts-dejavu
     - fonts-dejavu-core
+    - fonts-dejavu-extra
     - texlive-fonts-extra
+    - texlive-lang-chinese
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:

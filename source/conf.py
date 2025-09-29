@@ -81,7 +81,7 @@ html_theme_options = {
     "sticky_navigation": True,
     "navigation_depth": 4,
     "includehidden": True,
-    "titles_only": False
+    "titles_only": False,
 }
 html_favicon = "_static/DeviceStudio.ico"
 html_search_enabled = True
@@ -124,11 +124,20 @@ latex_elements = {
     "pointsize": "12pt",
     # Latex figure (float) alignment
     "figure_align": "H",
+    # Additional packages and font configuration
+    "fontpkg": r"""
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{DejaVu Sans}
+""",
     # Preamble for Unicode and graphics support
     "preamble": r"""
-\usepackage{fontspec}
 \usepackage{float}
 \usepackage{graphicx}
 \setkeys{Gin}{width=\textwidth,height=\textheight,keepaspectratio}
+\DeclareUnicodeCharacter{00A0}{\nobreakspace}
 """,
+    # Footer content
+    "fncychap": r"\usepackage[Bjornstrup]{fncychap}",
+    "printindex": r"\footnotesize\raggedright\printindex",
 }
