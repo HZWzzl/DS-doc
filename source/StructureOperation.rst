@@ -66,7 +66,7 @@ Taking crystalline MoS<sub>2</sub> as an example to illustrate a series of struc
 Adding Atoms
 ============
 
-To add a Cr atom to crystalline MoS<sub>2</sub>, as shown in red in :numref:`StructureOperation_19`, click the :guilabel:`Add Atom` shortcut icon in the Toolbars.  The periodic table will pop up. Select Cr in the periodic table and click :guilabel:`OK`. Click the left mouse button at position ④ in the interface shown in :numref:`StructureOperation_19`. Then click the :guilabel:`Recalculate LinkerBond` shortcut icon to recalculate bond lengths. This completes the operation of adding a Cr atom to MoS<sub>2</sub>. The completed 3D view is shown in :numref:`StructureOperation_8` (b).
+To add a Cr atom to crystalline MoS<sub>2</sub>, as shown in red in :numref:`StructureOperation_19`, click the :guilabel:`Add Atom` shortcut icon in the Toolbars.  The periodic table will pop up. Select Cr in the periodic table and click :guilabel:`OK`. Click the left mouse button at position (4) in the interface shown in :numref:`StructureOperation_19`. Then click the :guilabel:`Recalculate LinkerBond` shortcut icon to recalculate bond lengths. This completes the operation of adding a Cr atom to MoS<sub>2</sub>. The completed 3D view is shown in :numref:`StructureOperation_8` (b).
 
 .. figure:: images/66_structure_1_1.png
    :align: center

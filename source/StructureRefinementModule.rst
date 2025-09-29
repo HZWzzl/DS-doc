@@ -331,21 +331,21 @@ The Atoms area in the parameter adjustment region of the Structure Refinement Mo
 
 The following describes the functions of each labeled item in the Atoms area of the Structure Refinement Module (SRM) parameter adjustment region, as shown in :numref:`StructureRefinementModule_17`:
 
-- - Label ① in :numref:`StructureRefinementModule_17`: Collapse atoms in the structure by element type or expand them by label.
+- - Label (1) in :numref:`StructureRefinementModule_17`: Collapse atoms in the structure by element type or expand them by label.
 
   - - When the button arrow points down, clicking it will collapse all expanded ``O`` atoms according to the ``O`` element pattern;
 
   - - When the button arrow points right, clicking will expand all ``O`` atoms according to the label mode.
 
-- - Number ② in :numref:`StructureRefinementModule_17`: Show or hide all atoms of the same element in the structure in the :ref:`SRM structure display area`;
+- - Number (2) in :numref:`StructureRefinementModule_17`: Show or hide all atoms of the same element in the structure in the :ref:`SRM structure display area`;
 
   - - Checked, all ``O`` atoms are shown in the :ref:`SRM structure display area`;
 
   - - Unchecked, all ``O`` atoms are hidden in the :ref:`SRM structure display area`.
 
-- - Number ③ in :numref:`StructureRefinementModule_17`: Modify the color of the same element in the structure;
+- - Number (3) in :numref:`StructureRefinementModule_17`: Modify the color of the same element in the structure;
 
-  - - Click ③ in :numref:`StructureRefinementModule_17` → The Select Color interface pops up as shown in :numref:`StructureRefinementModule_18` → Select a color or enter RGB values → Click the :guilabel:`OK` button to modify the color of the ``O`` element (i.e., the color of all ``O`` atoms).
+  - - Click (3) in :numref:`StructureRefinementModule_17` → The Select Color interface pops up as shown in :numref:`StructureRefinementModule_18` → Select a color or enter RGB values → Click the :guilabel:`OK` button to modify the color of the ``O`` element (i.e., the color of all ``O`` atoms).
 
 
 .. admonition:: note
@@ -360,45 +360,45 @@ The following describes the functions of each labeled item in the Atoms area of 
 
    Select Color Interface
 
-- - Label ④ in :numref:`StructureRefinementModule_17`: Modify the radius of the same element in the structure;
+- - Label (4) in :numref:`StructureRefinementModule_17`: Modify the radius of the same element in the structure;
 
-  - - Double-click label ④ in :numref:`StructureRefinementModule_17` → modify the radius value to change the radius of the ``O`` element (i.e., the radius of all ``O`` atoms).
+  - - Double-click label (4) in :numref:`StructureRefinementModule_17` → modify the radius value to change the radius of the ``O`` element (i.e., the radius of all ``O`` atoms).
 
 .. admonition:: note
 
    This radius value is of Double type and is rounded to two decimal places.
 
-- - Item ⑤ in :numref:`StructureRefinementModule_17`: Shows or hides the labels of all atoms of the same element in the :ref:`SRM structure display area`;
+- - Item (5) in :numref:`StructureRefinementModule_17`: Shows or hides the labels of all atoms of the same element in the :ref:`SRM structure display area`;
 
   - - When the eye button is closed, the labels of all ``O`` atoms are hidden in the :ref:`SRM structure display area`;
 
   - - When the eye button is open, the :ref:`SRM structure display area` shows the labels of all ``O`` atoms.
 
-- - Item ⑥ in :numref:`StructureRefinementModule_17`: Shows or hides a specific atom in the :ref:`SRM structure display area`;
+- - Item (6) in :numref:`StructureRefinementModule_17`: Shows or hides a specific atom in the :ref:`SRM structure display area`;
 
   - - Checking this box displays the ``Si1`` atom in the :ref:`SRM structure display area`;
 
   - - Unchecking this will hide the ``Si1`` atom in the :ref:`SRM structure display area`.
 
-- - No. ⑦ in :numref:`StructureRefinementModule_17`: Modify the color of an atom in the structure;
+- - No. (7) in :numref:`StructureRefinementModule_17`: Modify the color of an atom in the structure;
 
-  - - Click label ⑦ in :numref:`StructureRefinementModule_17` → The Select Color interface, as shown in :numref:`StructureRefinementModule_18`, will pop up → Select a color or enter RGB values → Click the :guilabel:`OK` button to modify the color of the ``Si1`` atom.
+  - - Click label (7) in :numref:`StructureRefinementModule_17` → The Select Color interface, as shown in :numref:`StructureRefinementModule_18`, will pop up → Select a color or enter RGB values → Click the :guilabel:`OK` button to modify the color of the ``Si1`` atom.
 
-- - Label ⑧ in :numref:`StructureRefinementModule_17`: Modify the radius of an atom in the structure;
+- - Label (8) in :numref:`StructureRefinementModule_17`: Modify the radius of an atom in the structure;
 
-  - - Double-click label ⑧ in :numref:`StructureRefinementModule_17` → modify the radius value to change the radius of the ``Si1`` atom.
+  - - Double-click label (8) in :numref:`StructureRefinementModule_17` → modify the radius value to change the radius of the ``Si1`` atom.
 
-- - Number ⑨ in :numref:`StructureRefinementModule_17`: Show or hide the label of a specific atom in the :ref:`SRM structure display area`;
+- - Number (9) in :numref:`StructureRefinementModule_17`: Show or hide the label of a specific atom in the :ref:`SRM structure display area`;
 
   - - When the eye button is closed, the label of the ``Si1`` atom is hidden in the :ref:`SRM structure display area`;
 
   - - When the eye button is open, the label of the ``Si1`` atom is displayed in the :ref:`SRM structure display area`.
 
-- - :numref:`StructureRefinementModule_17`, label ⑩: Hovering the mouse over this location will display the atom label;
+- - :numref:`StructureRefinementModule_17`, label (10): Hovering the mouse over this location will display the atom label;
 
-  - - If the atom label is too long to be fully displayed, place the mouse cursor over it to show the complete label. For example, placing the cursor over label ⑩ in :numref:`StructureRefinementModule_17` will display the complete label ``Si2``.
+  - - If the atom label is too long to be fully displayed, place the mouse cursor over it to show the complete label. For example, placing the cursor over label (10) in :numref:`StructureRefinementModule_17` will display the complete label ``Si2``.
 
-- - Number ⑪ in :numref:`StructureRefinementModule_17`: This can be any location in the Atoms area. You can modify the color or radius of all elements in the structure by right-clicking.
+- - Number (11) in :numref:`StructureRefinementModule_17`: This can be any location in the Atoms area. You can modify the color or radius of all elements in the structure by right-clicking.
 
   - - Change the color of all elements in the structure: Right-click → Color → Device Studio template 1 or Device Studio template 2;
 
@@ -434,37 +434,37 @@ The Model area in the parameter adjustment region of the Structure Refinement Mo
 
 The following describes the functions of each labeled item in the Model area of the Structure Refinement Module (SRM) parameter adjustment region, as shown in :numref:`StructureRefinementModule_19`:
 
-- - In :numref:`StructureRefinementModule_19`, label ①: Clicking ① selects the ball-and-stick model for displaying the atomic structure;
+- - In :numref:`StructureRefinementModule_19`, label (1): Clicking (1) selects the ball-and-stick model for displaying the atomic structure;
 
-- - In :numref:`StructureRefinementModule_19`, label ②: Clicking ② selects the polyhedral model for displaying the atomic structure;
+- - In :numref:`StructureRefinementModule_19`, label (2): Clicking (2) selects the polyhedral model for displaying the atomic structure;
 
-- - In :numref:`StructureRefinementModule_19`, label ③: In polyhedral mode, clicking area ③ increases the transparency of the polyhedra, making them increasingly transparent;
+- - In :numref:`StructureRefinementModule_19`, label (3): In polyhedral mode, clicking area (3) increases the transparency of the polyhedra, making them increasingly transparent;
 
-- - In :numref:`StructureRefinementModule_19`, label ④: In polyhedral mode, dragging label ④ adjusts the transparency of the atomic structure polyhedra;
+- - In :numref:`StructureRefinementModule_19`, label (4): In polyhedral mode, dragging label (4) adjusts the transparency of the atomic structure polyhedra;
 
-  - - Left-click and drag the button in area ④ to the left to increase the polyhedron's transparency, making it more transparent.
+  - - Left-click and drag the button in area (4) to the left to increase the polyhedron's transparency, making it more transparent.
 
-  - - Click and hold the button in area ④ with the left mouse button and drag to the right to decrease the polyhedron's transparency, making it increasingly opaque.
+  - - Click and hold the button in area (4) with the left mouse button and drag to the right to decrease the polyhedron's transparency, making it increasingly opaque.
 
-- - In :numref:`StructureRefinementModule_19`, clicking area ⑤ in polyhedron mode reduces the polyhedron's transparency, making it increasingly opaque;
+- - In :numref:`StructureRefinementModule_19`, clicking area (5) in polyhedron mode reduces the polyhedron's transparency, making it increasingly opaque;
 
 .. admonition:: note
 
-   Items ③, ④, and ⑤ in :numref:`StructureRefinementModule_19` (i.e., polyhedron transparency adjustment) are only active when item ② (Polyhedral) is selected, meaning the atomic structure display mode is set to polyhedral. Otherwise, they are grayed out and unavailable.  Only one of the ball-and-stick and polyhedral modes can be selected at a time.
+   Items (3), (4), and (5) in :numref:`StructureRefinementModule_19` (i.e., polyhedron transparency adjustment) are only active when item (2) (Polyhedral) is selected, meaning the atomic structure display mode is set to polyhedral. Otherwise, they are grayed out and unavailable.  Only one of the ball-and-stick and polyhedral modes can be selected at a time.
 
-- - Number ⑥ in :numref:`StructureRefinementModule_19`: Shows or hides coordinate axes in the :ref:`SRM structure display area`;
+- - Number (6) in :numref:`StructureRefinementModule_19`: Shows or hides coordinate axes in the :ref:`SRM structure display area`;
 
   - - Checked, the coordinate axes of the atomic structure will be displayed in the :ref:`SRM structure display area`;
 
   - - Unchecked, the atomic structure coordinate axes are hidden in the :ref:`SRM structure display area`.
 
-- - Item ⑦ in :numref:`StructureRefinementModule_19`: When the structure is a crystal or device, show or hide its cell in the :ref:`SRM structure display area`;
+- - Item (7) in :numref:`StructureRefinementModule_19`: When the structure is a crystal or device, show or hide its cell in the :ref:`SRM structure display area`;
 
   - - When checked, the atomic structure's cell is displayed in the :ref:`SRM structure display area`;
 
   - - Unchecked, the atomic structure Cell is hidden in the :ref:`SRM structure display area`.
 
-- - Item ⑧ in :numref:`StructureRefinementModule_19`: When the structure is a crystal or device, show or hide its OABC in the :ref:`SRM structure display area`;
+- - Item (8) in :numref:`StructureRefinementModule_19`: When the structure is a crystal or device, show or hide its OABC in the :ref:`SRM structure display area`;
 
   - - When checked, the OABC of the atomic structure is displayed in the :ref:`SRM structure display area`;
 
@@ -472,23 +472,23 @@ The following describes the functions of each labeled item in the Model area of 
 
 .. admonition:: note
 
-   Labels ⑦ and ⑧ in :numref:`StructureRefinementModule_19` are only activated when the imported structure is a crystal or device; if the imported structure is a molecule, both functions are grayed out and unavailable.
+   Labels (7) and (8) in :numref:`StructureRefinementModule_19` are only activated when the imported structure is a crystal or device; if the imported structure is a molecule, both functions are grayed out and unavailable.
 
-- - Number ⑨ in :numref:`StructureRefinementModule_19`: Modifies the background color of the :ref:`SRM structure display area`;
+- - Number (9) in :numref:`StructureRefinementModule_19`: Modifies the background color of the :ref:`SRM structure display area`;
 
-  - - Click label ⑨ in :numref:`StructureRefinementModule_19` → A Select Color dialog box will pop up as shown in :numref:`StructureRefinementModule_18` → Select a color or enter RGB values → Click the :guilabel:`OK` button to modify the background color of the :ref:`SRM structure display area`.
+  - - Click label (9) in :numref:`StructureRefinementModule_19` → A Select Color dialog box will pop up as shown in :numref:`StructureRefinementModule_18` → Select a color or enter RGB values → Click the :guilabel:`OK` button to modify the background color of the :ref:`SRM structure display area`.
 
-- - Number ⑩ in :numref:`StructureRefinementModule_19` sets the background color of the :ref:`SRM structure display area` to a gradient effect;
+- - Number (10) in :numref:`StructureRefinementModule_19` sets the background color of the :ref:`SRM structure display area` to a gradient effect;
 
   - - Checked: Sets the background color to a gradient effect;
 
   - - Unchecking this option disables the background gradient effect.
 
-- - In :numref:`StructureRefinementModule_19`, item ⑪: When item ⑩ (i.e., Use Gradient) in :numref:`StructureRefinementModule_19` is checked, click the dropdown button to select the gradient type for the background color.
+- - In :numref:`StructureRefinementModule_19`, item (11): When item (10) (i.e., Use Gradient) in :numref:`StructureRefinementModule_19` is checked, click the dropdown button to select the gradient type for the background color.
 
 .. admonition:: note
 
-   In :numref:`StructureRefinementModule_19`, item ⑪ is activated only when item ⑩ (i.e., Use Gradient) is checked; otherwise, it is grayed out and unavailable.
+   In :numref:`StructureRefinementModule_19`, item (11) is activated only when item (10) (i.e., Use Gradient) is checked; otherwise, it is grayed out and unavailable.
 
 
 .. _SRMRendering:
@@ -524,7 +524,7 @@ The following describes the functionality of each labeled feature in the Renderi
 
 - - **Atom** section: Adjusts the lighting of atoms in the atomic structure;
 
-  - - Labels ①, ②, ③ and ⑨, ⑩, ⑪ in :numref:`StructureRefinementModule_22`: Adjust the lighting of atoms in the structure by dragging the **slider** at positions ①, ②, ③ or setting the **numerical value** at positions ⑨, ⑩, ⑪. This is achieved by adjusting the Multiplier (highlight coefficient), Diffuse (diffuse reflection coefficient), and Shininess (shininess) parameters, and the effect can be seen in real time in the :ref:`SRM structure display area`.
+  - - Labels (1), (2), (3) and (9), (10), (11) in :numref:`StructureRefinementModule_22`: Adjust the lighting of atoms in the structure by dragging the **slider** at positions (1), (2), (3) or setting the **numerical value** at positions (9), (10), (11). This is achieved by adjusting the Multiplier (highlight coefficient), Diffuse (diffuse reflection coefficient), and Shininess (shininess) parameters, and the effect can be seen in real time in the :ref:`SRM structure display area`.
 
 - - **Bond** section: Adjusts the lighting of bonds in the atomic structure;
 
@@ -532,24 +532,24 @@ The following describes the functionality of each labeled feature in the Renderi
 
 - - **Lighting** section: Adjusts the overall lighting of the atomic structure. Spotlight 1 to Spotlight 4 represent four light sources, initially positioned at four fixed locations (two frontal, two rear).  A maximum of four spotlights can illuminate the atomic structure.
 
-  - - Item ④ in :numref:`StructureRefinementModule_22`: Controls whether a light beam (e.g., Spotlight 1) illuminates the atom, with real-time effects visible in the :ref:`SRM structure display area`.
+  - - Item (4) in :numref:`StructureRefinementModule_22`: Controls whether a light beam (e.g., Spotlight 1) illuminates the atom, with real-time effects visible in the :ref:`SRM structure display area`.
 
     - - Checked, the beam (e.g., Spotlight 1) illuminates the atoms;
 
     - - Unchecked, the beam (e.g., Spotlight 1) will not illuminate the atom.
 
-  - - Item ⑤ in :numref:`StructureRefinementModule_22`: Adjusts the brightness of the beam (e.g., Spotlight 1), with real-time effects visible in the :ref:`SRM structure display area`.
+  - - Item (5) in :numref:`StructureRefinementModule_22`: Adjusts the brightness of the beam (e.g., Spotlight 1), with real-time effects visible in the :ref:`SRM structure display area`.
 
-    - - Click the button in area ⑤ with the left mouse button, hold and drag to the left to decrease the beam brightness, making it dimmer.
+    - - Click the button in area (5) with the left mouse button, hold and drag to the left to decrease the beam brightness, making it dimmer.
 
-    - - Click and hold the button in area ⑤ with the left mouse button and drag to the right to increase the beam brightness.
+    - - Click and hold the button in area (5) with the left mouse button and drag to the right to increase the beam brightness.
 
-  - - Number ⑥ in :numref:`StructureRefinementModule_22`: Adjusts the position of the beam illuminating the atom, with the adjustment effect visible in real time in the :ref:`SRM structure display area`;
+  - - Number (6) in :numref:`StructureRefinementModule_22`: Adjusts the position of the beam illuminating the atom, with the adjustment effect visible in real time in the :ref:`SRM structure display area`;
 
-    - - Clicking label ⑥ in :numref:`StructureRefinementModule_22` adjusts the beam's position on the atom, as shown in :numref:`StructureRefinementModule_23`.
+    - - Clicking label (6) in :numref:`StructureRefinementModule_22` adjusts the beam's position on the atom, as shown in :numref:`StructureRefinementModule_23`.
 
 
-  - - Click labels ⑦ and ⑧ in :numref:`StructureRefinementModule_22`, drag label ⑦ to **slide the button** or set the value at label ⑧ to adjust the atom structure lighting via the Ambient parameter.  The adjustment effect can be seen in real-time in the :ref:`SRM structure display area`.
+  - - Click labels (7) and (8) in :numref:`StructureRefinementModule_22`, drag label (7) to **slide the button** or set the value at label (8) to adjust the atom structure lighting via the Ambient parameter.  The adjustment effect can be seen in real-time in the :ref:`SRM structure display area`.
 
 
 .. figure:: images/SRM_Function_23.png
@@ -790,7 +790,7 @@ To illustrate, this section details how to modify the background color of the Si
 
    The interface displays the modification of the **background color** of the Si16O32 crystal structure from **pure white** to a **gradient effect**.
 
-3. Based on :numref:`StructureRefinementModule_34`, click the dropdown button in area ④ of :numref:`StructureRefinementModule_34` to select the gradient type for the background color.
+3. Based on :numref:`StructureRefinementModule_34`, click the dropdown button in area (4) of :numref:`StructureRefinementModule_34` to select the gradient type for the background color.
 
 
 .. admonition:: note

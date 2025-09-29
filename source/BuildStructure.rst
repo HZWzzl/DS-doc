@@ -163,7 +163,7 @@ Taking the construction of a 2D molecular structure with three connected benzene
 
 .. admonition:: Note
 
-   The :guilabel:`Minimize Structure` labeled as ② in :numref:`BuildStructure_14` is for structural optimization of molecular structures through molecular force field calculations, defaulting to MMFF94. You can select an appropriate force field for structural optimization by clicking the dropdown button.
+   The :guilabel:`Minimize Structure` labeled as (2) in :numref:`BuildStructure_14` is for structural optimization of molecular structures through molecular force field calculations, defaulting to MMFF94. You can select an appropriate force field for structural optimization by clicking the dropdown button.
 
 
 .. _3d-molecular-modeling:
